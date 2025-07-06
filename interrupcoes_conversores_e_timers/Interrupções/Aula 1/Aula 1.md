@@ -72,21 +72,25 @@
 
 -  Exemplo 1
 
-![[Exemplo Interrupção.png]]
+<div align="center"><img src="Exemplo Interrupção.png"/></div>
 
 -  Exemplo 2
 
-![[Exemplo Interrupção com Prioridade.png]]
+<div><img src="Exemplo Interrupção com Prioridade.png"/></div>
 
 -  Exemplo 3
 
-![[Exemplo Interrupção com Prioridade 2.png]]
+<div align="center">
+<img src="Exemplo Interrupção com Prioridade 2.png"/>
+</div>
 
 O que temos nos últimos dois exemplos são aninhamentos de interrupções
 
 -  Exemplo 4
 
-![[Exemplo Interrupção não Preemptiva.png]]
+<div align="center">
+<img src="Exemplo Interrupção não Preemptiva.png"/>
+</div>
 
 <mark style="background: #FF5582A6;">**Obs: o STM32F407 trabalha com o tipo de Interrupções Preemptivas.**</mark>
 
@@ -97,7 +101,7 @@ Levando em consideração a observação acima, o STM32 possui um Hardware contr
 <div align="center">
 <img src="Nested Vectored Interrupt Controller.png"/>
 </div>
-
+<br></br>
 -  O controlador NVIC suporta até 256 fontes de interrupções (apesar de ter bem menos implementadas no hardware do chip).
 -  Diferentes microcontroladores pode ter diferentes quantidades de fonte de interrupções implementadas fisicamente no chip.
 -  **NMI - Interrupção não mascarada (está sempre habilitada)**
@@ -147,7 +151,7 @@ Com o objetivo de facilitar o acesso aos registradores a CMSIS disponibiliza de 
 
 Quando criamos o projeto no STMCubeIDE temos o seguinte arquivo
 
-```
+```txt
 projeto/
 |----Core/
 |    |-----Inc/
