@@ -1,5 +1,6 @@
 ../Drivers/CMSIS/Include/core_cm4.h:1653:22:__NVIC_SetPriorityGrouping	24	static
 ../Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	16	static
 ../Core/Inc/Utility.h:241:6:Utility_Init	8	static
 ../Core/Inc/Utility.h:252:6:Configure_Clock	8	static
 ../Core/Inc/Utility.h:295:6:TIM2_Setup	4	static
@@ -30,6 +31,7 @@
 ../Core/Inc/Utility.h:694:5:__io_getchar	4	static
 ../Core/Inc/Utility.h:700:6:USART1_IRQHandler	8	static
 ../Core/Inc/Utility.h:709:10:Random_Number	4	static
-../Core/Src/main.c:5:6:EXTI3_IRQHandler	8	static
-../Core/Src/main.c:14:6:setup	8	static
-../Core/Src/main.c:46:5:main	8	static
+../Core/Src/main.c:5:6:EXTI3_IRQHandler	16	static
+../Core/Src/main.c:13:6:EXTI4_IRQHandler	16	static
+../Core/Src/main.c:21:6:setup	8	static
+../Core/Src/main.c:54:5:main	8	static

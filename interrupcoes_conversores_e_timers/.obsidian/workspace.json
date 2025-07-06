@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interrupções/Aula 2/Aula 2.md",
+                "file": "Interrupções/Aula 3/Aula 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 2"
+              "title": "Aula 3"
             }
           }
         ]
@@ -170,9 +170,14 @@
   },
   "active": "e2f1679ee32a3cdd",
   "lastOpenFiles": [
+    "Interrupções/Aula 3/Exemplo prático 2.png",
+    "Interrupções/Aula 3/Prioridades.png",
+    "Interrupções/Aula 3/Exemplo prático.png",
+    "Interrupções/Aula 3/Aula 3.md",
+    "Interrupções/Aula 2/Aula 2.md",
+    "Interrupções/Aula 3",
     "Interrupções/Aula 2/Outra alternativa.png",
     "Interrupções/Aula 1/Aula 1.md",
-    "Interrupções/Aula 2/Aula 2.md",
     "Interrupções/Aula 2/Exemplo prático.png",
     "Interrupções/Aula 2/Codigo com registradores EXTI.png",
     "Interrupções/Aula 2/Registrador EXTICR1.png",
@@ -180,12 +185,9 @@
     "Interrupções/Aula 2/Rising Trigger Register.png",
     "Interrupções/Aula 2/Falling Trigger Register.png",
     "Interrupções/Aula 2/Controlador de Interrupcoes-Eventos externos EXTI.png",
-    "Interrupções/Aula 1/Exemplo Interrupção.png",
     "Interrupções/Aula 2",
-    "Interrupções/Aula 1/Tabela de vetores de interrupções.png",
     "Interrupções/Aula 1",
     "Interrupções",
-    "Interrupções/Aula 1/Exemplo Interrupção com Prioridade.png",
     "main/IA/Capacitação IA - Aula 29.md",
     "main/IA/Capacitação IA - Aula 34.md",
     "main/IA/Exemplos - Árvore de Decisão - Aula 2.pdf",
@@ -202,7 +204,6 @@
     "main/IoT/untitled1/src/main.c",
     "main/IoT/untitled1/test/README",
     "main/IoT/untitled1/test",
-    "main/IoT/untitled1/lib/README",
     "main/IoT/Capacitação IoT - Aula 22.md",
     "main/IoT/Capacitação IoT - Aula 24.md",
     "main/IA/Capacitação IA - Aula 27.md",
@@ -215,7 +216,6 @@
     "main/IoT/Capacitação IoT - Aula 1.md",
     "main/IoT/Capacitação IoT - Aula 11.md",
     "main/IA/Capacitação IA - Aula 12.md",
-    "main/IA/Capacitação IA - Aula 7.md",
     "main/Sem título.canvas"
   ]
 }
