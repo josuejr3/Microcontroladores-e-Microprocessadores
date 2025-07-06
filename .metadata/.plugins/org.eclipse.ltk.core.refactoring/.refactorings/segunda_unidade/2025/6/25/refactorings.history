@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;segunda_unidade/Core/Src/aula_teorica3_adc.c&apos; to &apos;aula_teorica3_conversores_adc.c&apos;" description="Rename resource &apos;aula_teorica3_adc.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/aula_teorica3_adc.c" name="aula_teorica3_conversores_adc.c" stamp="1750372972686" updateReferences="true"/>
-</session>
