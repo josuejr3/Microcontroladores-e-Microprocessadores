@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a77b2ecf975abc89",
@@ -167,7 +168,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8c8ba113f61a5c97",
+  "active": "e2f1679ee32a3cdd",
   "lastOpenFiles": [
     "Interrupções/Aula 2/Outra alternativa.png",
     "Interrupções/Aula 1/Aula 1.md",

@@ -23,6 +23,7 @@ Para usarmos um pino como fonte de interrrupção nós devemos:
 	1.  Para isso programamos os dois registrados
 		1.  Rising Trigger Selection Register (borda de subida)
 		2.  Falling Trigger Selection Register (borda de descida )
+<br></br>
 
 		> RTSR (Rising Trigger Selection Register)
 
