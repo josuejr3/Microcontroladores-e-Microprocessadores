@@ -1,0 +1,10 @@
+11:24:31 **** Incremental Build of configuration Debug for project MICRO ****
+make -j8 all 
+arm-none-eabi-size  MICRO.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1736	      4	   1572	   3312	    cf0	MICRO.elf
+Finished building: default.size.stdout
+ 
+
+11:24:32 Build Finished. 0 errors, 0 warnings. (took 498ms)
+

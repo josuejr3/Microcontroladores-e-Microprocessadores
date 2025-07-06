@@ -1,0 +1,15 @@
+{
+  "showCLICommands": false,
+  "addExtensionsToInternalLinks": "html",
+  "injectAppCSS": "light",
+  "injectThemeCSS": false,
+  "customCSSFile": null,
+  "displayYAMLFrontmatter": false,
+  "linkStrippingBehaviour": "text",
+  "highDPIDiagrams": true,
+  "pandoc": "D:\\Josue\\Cursos\\Capacitacao_IA_e_IoT\\.obsidian\\plugins\\obsidian-pandoc",
+  "pdflatex": null,
+  "outputFolder": "D:\\Josue\\teste",
+  "extraArguments": "",
+  "exportFrom": "html"
+}
