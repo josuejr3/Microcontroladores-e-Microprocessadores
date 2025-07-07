@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4c358377817bafd0",
+        "id": "d4fdf037e470ed08",
         "type": "tabs",
         "children": [
           {
-            "id": "e2f1679ee32a3cdd",
+            "id": "b5c39a63bad5e162",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interrupções/Aula 3/Aula 3.md",
+                "file": "Conversores DA/Aula 2/Aula 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 3"
+              "title": "Aula 2"
             }
           }
         ]
@@ -164,27 +164,31 @@
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e2f1679ee32a3cdd",
+  "active": "b5c39a63bad5e162",
   "lastOpenFiles": [
-    "Interrupções/Aula 3/Exemplo prático 2.png",
-    "Interrupções/Aula 3/Prioridades.png",
-    "Interrupções/Aula 3/Exemplo prático.png",
-    "Interrupções/Aula 3/Aula 3.md",
-    "Interrupções/Aula 2/Aula 2.md",
-    "Interrupções/Aula 3",
-    "Interrupções/Aula 2/Outra alternativa.png",
+    "Conversores DA/Aula 2/Outros tópicos.png",
+    "Conversores DA/Aula 2/Geração sinal de ruído.png",
+    "Conversores DA/Aula 2/Aula 2.md",
+    "Conversores DA/Aula 2/Onda Gerada 2.png",
+    "Conversores DA/Aula 2/Onda Gerada.png",
+    "Conversores DA/Aula 2/SWTrig.png",
+    "Conversores DA/Aula 2/Diagrama Geração de Ondas.png",
+    "Conversores DA/Aula 2/Amplitude.png",
+    "Conversores DA/Aula 1/Registrador CR.png",
+    "Pasted image 20250707023336.png",
+    "Conversores DA/Aula 2/Geração de Ondas.png",
+    "Conversores DA/Aula 2/Filtro RC.png",
     "Interrupções/Aula 1/Aula 1.md",
-    "Interrupções/Aula 2/Exemplo prático.png",
-    "Interrupções/Aula 2/Codigo com registradores EXTI.png",
-    "Interrupções/Aula 2/Registrador EXTICR1.png",
-    "Interrupções/Aula 2/Mapeamento de Pinos.png",
-    "Interrupções/Aula 2/Rising Trigger Register.png",
-    "Interrupções/Aula 2/Falling Trigger Register.png",
-    "Interrupções/Aula 2/Controlador de Interrupcoes-Eventos externos EXTI.png",
+    "Conversores DA/Aula 1/Aula 1.md",
+    "Conversores DA/Aula 2",
+    "Conversores DA/Aula 1",
+    "Interrupções/Aula 2/Aula 2.md",
+    "Conversores DA",
+    "Interrupções/Aula 3/Aula 3.md",
+    "Interrupções/Aula 3",
     "Interrupções/Aula 2",
     "Interrupções/Aula 1",
     "Interrupções",
@@ -201,9 +205,6 @@
     "main/IA/Capacitação IA - 31.md",
     "main/IoT/untitled1/include/Utility.h",
     "main/IoT/untitled1/compile_commands.json",
-    "main/IoT/untitled1/src/main.c",
-    "main/IoT/untitled1/test/README",
-    "main/IoT/untitled1/test",
     "main/IoT/Capacitação IoT - Aula 22.md",
     "main/IoT/Capacitação IoT - Aula 24.md",
     "main/IA/Capacitação IA - Aula 27.md",
@@ -214,8 +215,6 @@
     "main/IA/Capacitação IA - Aula 14.md",
     "main/IoT/Capacitação IoT - Aula 13.md",
     "main/IoT/Capacitação IoT - Aula 1.md",
-    "main/IoT/Capacitação IoT - Aula 11.md",
-    "main/IA/Capacitação IA - Aula 12.md",
     "main/Sem título.canvas"
   ]
 }
