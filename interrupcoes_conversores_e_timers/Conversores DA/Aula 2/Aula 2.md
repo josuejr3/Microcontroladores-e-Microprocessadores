@@ -214,7 +214,7 @@ int main(){
 
 > ~={green}Onda Triangular Gerada=~
 
-<div align=""><img src="Onda Gerada 2.png"></div>
+<div align="center"><img src="Onda Gerada 2.png"></div>
 
 ###### <span style="color:rgb(4, 255, 0)">Geração de Formas de onda (ruído)</span> 
 
