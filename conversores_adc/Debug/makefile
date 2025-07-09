@@ -61,7 +61,7 @@ main-build: conversores_adc.elf secondary-outputs
 
 # Tool invocations
 conversores_adc.elf conversores_adc.map: $(OBJS) $(USER_OBJS) D:\Josue\Engenharia\ de\ Computacao\microprocessadores-microcontroladores\conversores_adc\STM32F407VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "conversores_adc.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Josue\Engenharia de Computacao\microprocessadores-microcontroladores\conversores_adc\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="conversores_adc.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "conversores_adc.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Josue\Engenharia de Computacao\microprocessadores-microcontroladores\conversores_adc\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="conversores_adc.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

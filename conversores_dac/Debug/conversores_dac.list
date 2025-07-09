@@ -178,8 +178,8 @@ void USART1_IRQHandler(void)
  800024e:	bd80      	pop	{r7, pc}
 
 08000250 <main>:
-	DAC->CR |= DAC_CR_EN2;
-
+	// DAC_SWTrigger(DAC_CHANNEL2); (USAR NO LOOP)
+	// Se quisermos somar um valor, usamos DAC_SetValue
 
 }
 
