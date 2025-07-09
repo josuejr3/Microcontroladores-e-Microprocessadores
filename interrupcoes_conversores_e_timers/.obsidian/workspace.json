@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timers/Aula 1/Aula 1.md",
+                "file": "Timers/Aula 3/Aula 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 1"
+              "title": "Aula 3"
             }
           }
         ]
@@ -169,21 +169,25 @@
   },
   "active": "b32241cc54d98e32",
   "lastOpenFiles": [
-    "Timers/Aula 1/Exercicio Pratico Timers 1.png",
-    "Timers/Aula 1/Diagrama de Blocos SysTick.png",
-    "Timers/Aula 1/Gráfico.png",
-    "Timers/Aula 1/Systick operacao.png",
-    "Timers/Aula 1/Timer Systick.png",
-    "Timers/Aula 1/Tabela Timers.png",
-    "Timers/Aula 1/Registradores Associados.png",
-    "Timers/Aula 1/Medição do Tempo.png",
-    "Conversores AD/Aula 3/Aula 3.md",
+    "Timers/Aula 3/TIM CR2.png",
+    "Timers/Aula 3/Exemplo de recurso.png",
+    "Timers/Aula 3/PWM crescente.png",
+    "Timers/Aula 3/Registrador SR para TIM.png",
+    "Timers/Aula 3/Saída modo alternância.png",
+    "Timers/Aula 3/Aula 3.md",
+    "Timers/Aula 3/Tabela modo de comparação.png",
+    "Timers/Aula 3/Circuito Compare.png",
+    "Timers/Aula 2/Aula 2.md",
+    "Timers/Aula 3",
+    "Timers/Aula 2/Contagem Livre.png",
+    "Timers/Aula 2/Modos de Contagem.png",
+    "Timers/Aula 2/TIM2 e TIM5 escravo.png",
+    "Timers/Aula 2/TIMX CR1.png",
     "Timers/Aula 1/Aula 1.md",
+    "Timers/Aula 2",
+    "Conversores AD/Aula 3/Aula 3.md",
     "Timers/Aula 1",
     "Timers",
-    "Exemplo DSP.png",
-    "Conversores AD/Aula 3/SMDS.png",
-    "Conversores AD/Aula 3/CR1 WDA.png",
     "Conversores AD/Aula 2/Aula 2.md",
     "Conversores AD/Aula 3",
     "Conversores AD/Aula 1/Aula 1.md",
@@ -197,9 +201,7 @@
     "Conversores DA/Aula 2",
     "Conversores DA/Aula 1",
     "Interrupções/Aula 2/Aula 2.md",
-    "Conversores DA",
     "Interrupções/Aula 3/Aula 3.md",
-    "Interrupções/Aula 3",
     "main/IA/Capacitação IA - Aula 29.md",
     "main/IA/Capacitação IA - Aula 34.md",
     "main/Redes/Capacitação Redes - Aula 33.md",
@@ -213,8 +215,6 @@
     "main/IoT/Capacitação IoT - Aula 22.md",
     "main/IoT/Capacitação IoT - Aula 24.md",
     "main/IA/Capacitação IA - Aula 27.md",
-    "main/IA/Capacitação IA - Aula 21.md",
-    "main/IA/Capacitação IA - Aula 23.md",
     "main/Sem título.canvas"
   ]
 }
