@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Resumo: Cálculo de Tempo com Timers STM32</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    color: #005f99;
+    margin-bottom: 40px;
+  }
+  h2 {
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+  }
+  p, pre {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  pre {
+    background: #eaeaea;
+    border-left: 4px solid #007acc;
+    padding: 12px 16px;
+    overflow-x: auto;
+  }
+  ul {
+    margin-top: 0;
+  }
+  .example {
+    background: #d0f0ff;
+    border: 1px solid #007acc;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 6px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #888;
+  }
+</style>
+</head>
+<body>
+
+<h1>Resumo: Cálculo de Tempo com Timers STM32</h1>
+
+<h2>Objetivo</h2>
+<p>Entender como calcular o tempo de cada incremento do timer (tick) e o tempo total de contagem até o valor do ARR, para configurar corretamente eventos temporizados.</p>
+
+<h2>1. Tempo de cada Tick (Incremento)</h2>
+<p>Esse tempo é controlado pelo valor do Prescaler (PSC). O prescaler divide o clock do timer, desacelerando a contagem.</p>
+<p><strong>Fórmula:</strong></p>
+<pre>Tick = (PSC + 1) / Clock_do_Timer</pre>
+<p><strong>Exemplo:</strong> com PSC = 419 e clock do timer = 84 MHz:</p>
+<pre>Tick = (419 + 1) / 84.000.000 = 5 µs</pre>
+
+<h2>2. Tempo total da contagem (Período)</h2>
+<p>Esse tempo depende do valor de ARR, ou seja, quantas vezes o timer vai contar antes de reiniciar.</p>
+<p><strong>Fórmula:</strong></p>
+<pre>Tempo_Total = Tick × (ARR + 1)</pre>
+<p><strong>Exemplo:</strong> com ARR = 199 e Tick = 5 µs:</p>
+<pre>Tempo_Total = 5 µs × 200 = 1000 µs = 1 ms</pre>
+
+<h2>Exemplo Prático</h2>
+<p>Objetivo: gerar evento a cada 2 ms.</p>
+<p>Escolha PSC = 8399 → Tick = (8399 + 1) / 84.000.000 = 100 µs</p>
+<p>2 ms / 100 µs = 20 contagens → ARR = 19</p>
+<div class="example">
+<pre>Configuração:
+TIM2-&gt;PSC = 8399;
+TIM2-&gt;ARR = 19;</pre>
+</div>
+
+<h2>Resumo Final</h2>
+<ul>
+  <li>Calcule o tempo de cada tick com PSC:<br />
+  <pre>Tick = (PSC + 1) / Clock_Timer</pre></li>
+  <li>Calcule o tempo total com ARR:<br />
+  <pre>Tempo_Total = Tick × (ARR + 1)</pre></li>
+</ul>
+
+<footer>
+  <p>Feito com ❤️ por ChatGPT</p>
+</footer>
+
+</body>
+</html>

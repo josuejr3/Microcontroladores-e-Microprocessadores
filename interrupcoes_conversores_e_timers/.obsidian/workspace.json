@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "520d0f8a4f233da5",
+        "id": "e03545e39640a934",
         "type": "tabs",
         "children": [
           {
-            "id": "b32241cc54d98e32",
+            "id": "d3fd92162bef559f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timers/Aula 3/Aula 3.md",
+                "file": "Timers/Entendendo o Prescaler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 3"
+              "title": "Entendendo o Prescaler"
             }
           }
         ]
@@ -167,22 +167,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b32241cc54d98e32",
+  "active": "d3fd92162bef559f",
   "lastOpenFiles": [
+    "Prefixos Unidades de Medida.png",
+    "Timers/Entendendo o Prescaler.md",
+    "Conversores DA/Aula 1/Aula 1.md",
+    "Conversores DA/Aula 2/Aula 2.md",
+    "Conversores DA/8. Conversor DA no STM32F407.pdf",
+    "Timers/Aula 3/Aula 3.md",
     "Timers/Aula 3/TIM CR2.png",
     "Timers/Aula 3/Exemplo de recurso.png",
     "Timers/Aula 3/PWM crescente.png",
     "Timers/Aula 3/Registrador SR para TIM.png",
     "Timers/Aula 3/Saída modo alternância.png",
-    "Timers/Aula 3/Aula 3.md",
     "Timers/Aula 3/Tabela modo de comparação.png",
     "Timers/Aula 3/Circuito Compare.png",
     "Timers/Aula 2/Aula 2.md",
     "Timers/Aula 3",
     "Timers/Aula 2/Contagem Livre.png",
     "Timers/Aula 2/Modos de Contagem.png",
-    "Timers/Aula 2/TIM2 e TIM5 escravo.png",
-    "Timers/Aula 2/TIMX CR1.png",
     "Timers/Aula 1/Aula 1.md",
     "Timers/Aula 2",
     "Conversores AD/Aula 3/Aula 3.md",
@@ -195,11 +198,8 @@
     "Conversores AD/Aula 1/Sem título.md",
     "Conversores AD/Aula 1",
     "Conversores AD",
-    "Conversores DA/Aula 2/Aula 2.md",
     "Interrupções/Aula 1/Aula 1.md",
-    "Conversores DA/Aula 1/Aula 1.md",
     "Conversores DA/Aula 2",
-    "Conversores DA/Aula 1",
     "Interrupções/Aula 2/Aula 2.md",
     "Interrupções/Aula 3/Aula 3.md",
     "main/IA/Capacitação IA - Aula 29.md",
@@ -214,7 +214,6 @@
     "main/IA/Capacitação IA - 31.md",
     "main/IoT/Capacitação IoT - Aula 22.md",
     "main/IoT/Capacitação IoT - Aula 24.md",
-    "main/IA/Capacitação IA - Aula 27.md",
     "main/Sem título.canvas"
   ]
 }
